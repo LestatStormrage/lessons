@@ -1,0 +1,45 @@
+@import url("reset.css");
+
+.content *{
+	color: rgb(154, 129, 98);
+}
+
+h2{
+	color: rgb(34, 92, 178);
+}
+
+.exp-per-text > p {
+	color: rgb(207, 0, 0);
+}
+
+.exp-per-text + p {
+	color: chocolate;
+}
+
+.ruh-spost-text ~ p {
+	color: rgb(86, 86, 153);
+}
+
+.el-hv-text-1, .el-hv-text-2{
+	color: chartreuse;
+}
+
+.el-hv .el-hv-text-3{
+	color: darkgreen;
+}
+
+.re-ef-text.re-ef-text-formula{
+	color: deeppink;
+}
+
+h2.ruh-dj-title{
+	color: darkviolet;
+}
+
+#end1{
+	color: gold;
+}
+
+[class*="__container"] {
+	color: rgb(17, 0, 144);
+}
