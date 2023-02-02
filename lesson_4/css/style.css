@@ -1,0 +1,94 @@
+@import url("reset.css");
+
+/* @import url(https://fonts.googleapis.com/css?family=Kavoon:regular,100,300,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Solitreo:regular,100,300,700&display=swap); */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap);
+
+@font-face {
+	font-family: "Icekingdom";
+	src: url("/fonts/Icekingdom.woff2") format("woff2"), url("/fonts/Icekingdom.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+h1 {
+	font-family: "Icekingdom";
+	font-size: 32px;
+	text-decoration: underline;
+	font-weight: 700;
+	text-shadow: 2px 5px 10px #000;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.d-t-r, .d-d-r, .et-dosl {
+	font-weight: 700;
+}
+
+.wiki {
+	text-decoration: underline;
+}
+
+.content {
+	color: rgb(44, 44, 221, 0.7);
+}
+
+.ter-en {
+	text-indent: 20px;
+	word-spacing: 20px;
+}
+
+.y-p-e {
+	font-style: oblique;
+}
+
+[class*="__title"] {
+	font-family: "Icekingdom";
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.osn-prinz {
+	word-spacing: 10px;
+}
+
+.osn-prinz__title {
+	text-align: right;
+	font-weight: 100;
+	text-transform: capitalize;
+	letter-spacing: 5px;
+}
+
+.react-sin {
+	font-style: italic;
+}
+
+.react-sin__title {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.kon-el__text {
+	text-align: justify;
+}
+
+.dost-kom__title {
+	text-decoration: line-through;
+	text-transform: lowercase;
+}
+
+.rad-vid__text {
+	font-family: "Roboto";
+	font-weight: 300;
+	font-style: italic;
+}
+
+.start__text {
+	white-space: nowrap;
+}
