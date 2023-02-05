@@ -9,6 +9,10 @@ body {
 	font-family: "Poppins", sans-serif;
 }
 
+header {
+	margin-bottom: 80px;
+}
+
 
 [class*="__title"] {
 	font-style: normal;
@@ -16,6 +20,7 @@ body {
 	font-size: 25px;
 	line-height: 40px;
 	color: #212529;
+	margin-bottom: 40px;
 }
 
 [class*="__text"] {
@@ -25,7 +30,6 @@ body {
 	letter-spacing: 0em;
 	text-align: left;
 	color: #6C757D;
-	margin-top: 40px;
 }
 
 [class*="__container"] {
@@ -35,7 +39,6 @@ body {
 
 
 .source {
-	margin-top: 80px;
 	margin-bottom: 15px;
 	color: #6C757D;
 	font-size: 12px;
@@ -59,15 +62,15 @@ body {
 	max-width: 605px;
 }
 
-.photo-1{
+.photo-1 {
 	display: block;
 }
 
-.photo-2, .photo-3{
+.photo-2, .photo-3 {
 	display: inline-block;
 }
 
-.photo-2-3{
+.photo-2-3 {
 	text-align: center;
 }
 
@@ -76,14 +79,6 @@ body {
 	margin: 80px auto;
 }
 
-
-/* .photo-1, .photo-2-3 {
-
-	margin: 80px auto;
-	max-width: 1270px;
-} */
-
-
 .photo-2 {
 	margin-right: 30px;
 }
@@ -91,7 +86,7 @@ body {
 
 /* Practice */
 
-.practice{
+.practice {
 	margin-top: 100px;
 }
 
@@ -107,6 +102,7 @@ body {
 
 .practice-list {
 	font-size: 0;
+	margin-bottom: 100px;
 }
 
 .practice-list li {
@@ -118,16 +114,15 @@ body {
 	display: inline;
 }
 
-.practice-block{
+.practice-block {
 	font-size: 0;
-	margin-top: 100px;
 }
 
-.practice-block-group-12, .practice-block-group-34{
+.practice-block-group-12, .practice-block-group-34 {
 	margin: 0 auto;
 }
 
-.practice-block-group-12 > div{
+.practice-block-group-12>div {
 	display: inline-block;
 	max-width: 50%;
 	max-height: 80px;
@@ -135,7 +130,7 @@ body {
 	font-size: 14px;
 }
 
-.practice-block-group-34 > div{
+.practice-block-group-34>div {
 	display: inline-block;
 	max-width: 50%;
 	max-height: 80px;
@@ -144,16 +139,16 @@ body {
 }
 
 
-.practice-block-1, .practice-block-4{
+.practice-block-1, .practice-block-4 {
 	background-color: black;
 	color: white;
 	overflow-y: auto;
 }
 
-.practice-block-2, .practice-block-3{
+.practice-block-2, .practice-block-3 {
 	height: 80px;
 	background-color: white;
 	color: black;
 	overflow-x: auto;
 	white-space: nowrap;
-	}
+}
