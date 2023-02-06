@@ -1,0 +1,161 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap);
+
+
+
+body {
+	background-color: #E5E5E5;
+	font-family: "Poppins", sans-serif;
+}
+
+.main-page{
+	padding-top: 80px;
+}
+
+
+[class*="__title"] {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 40px;
+	color: #212529;
+	margin-bottom: 40px;
+}
+
+[class*="__text"] {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #6C757D;
+	padding-bottom: 80px;
+}
+
+
+
+[class*="__text"] p {
+	margin-bottom: 12px;
+}
+
+[class*="__container"] {
+	margin: 0 auto;
+	max-width: 816px;
+}
+
+
+.source {
+	margin-bottom: 15px;
+	color: #6C757D;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0em;
+}
+
+.min, .by {
+	margin-left: 25px;
+}
+
+.by {
+	font-weight: 700;
+}
+
+.text-1__title {
+	max-width: 400px;
+}
+
+.text-2__title {
+	max-width: 605px;
+}
+
+.photo-1 {
+	display: block;
+	max-width: 100%;
+}
+
+.photo-2, .photo-3 {
+	display: inline-block;
+	max-width: 50%;
+}
+
+.photo-2 {
+	padding-right: 15px;
+}
+
+.photo-3 {
+	padding-left: 15px;
+}
+
+.photo-2-3 {
+	text-align: center;
+}
+
+.photo-1, .photo-2-3 {
+	font-size: 0;
+	margin: 0 auto 80px;
+}
+
+
+
+/* Practice */
+
+.practice {
+	margin-top: 100px;
+}
+
+.practice-text-1 {
+	background-color: #3cc266;
+	margin: 0 0 40px auto;
+	padding: 60px;
+	max-width: 400px;
+	height: 200px;
+	overflow: auto;
+	text-align: center;
+}
+
+.practice-list {
+	font-size: 0;
+	margin-bottom: 100px;
+}
+
+.practice-list li {
+	font-size: 14px;
+	background-color: #2700c5;
+	color: #E5E5E5;
+	padding: 30px;
+	max-width: 100px;
+	display: inline;
+}
+
+.practice-block {
+	font-size: 0;
+}
+
+.practice-block-group-12, .practice-block-group-34 {
+	margin: 0 auto;
+}
+
+.practice-block-group-12>div, .practice-block-group-34>div {
+	display: inline-block;
+	max-width: 50%;
+	max-height: 80px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+
+
+.practice-block-1, .practice-block-4 {
+	background-color: black;
+	color: white;
+	overflow-y: auto;
+}
+
+.practice-block-2, .practice-block-3 {
+	height: 80px;
+	background-color: white;
+	color: black;
+	overflow-x: auto;
+	white-space: nowrap;
+}
