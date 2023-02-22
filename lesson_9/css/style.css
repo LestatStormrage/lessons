@@ -1,0 +1,25 @@
+@import url("reset.css");
+
+body {
+	background-color: #b2b2b2;
+	padding: 15px;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+div:not(:last-child) {
+	margin-bottom: 60px;
+}
+
+.design {
+	padding: 300px 100px;
+	border: 1px solid;
+	background: url('../img/dotted-shape.svg') 0 0/50px no-repeat, url('../img/dotted-shape-1.svg') 100% 100%/50px no-repeat, url('../img/dotted-shape-2.svg') 50% no-repeat, url('../img/shape.svg') 50%/cover no-repeat;
+}
