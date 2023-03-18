@@ -1,0 +1,547 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Inter:500,600,700&display=port);
+
+
+.wrapper {
+	/* overflow: clip; */
+	min-height: 100%;
+}
+
+
+body {
+	background-color: #E5E5E5;
+	padding: 15px;
+}
+
+.practice__container {
+	margin-bottom: 150px;
+}
+
+[class*="__title"] {
+	font-size: 100px;
+	color: black;
+	margin-bottom: 15px;
+}
+
+.practice__container>*:not(:first-child) {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin-right: 75px;
+}
+
+[class*="__block"] {
+	background-color: blue;
+}
+
+.translate__block:nth-child(2):hover {
+	transform: translate(40px, 40px);
+}
+
+.translate__block:nth-child(3):hover {
+	transform: translate(-20px, 10px);
+}
+
+.translate__block:nth-child(4):hover {
+	transform: translate(50%, 10%);
+}
+
+.translate__block:nth-child(5):hover {
+	transform: translate(20%, -20px);
+}
+
+.translate__block:nth-child(6):hover {
+	transform: translateY(-40px);
+}
+
+
+
+.scale__block:nth-child(2):hover {
+	transform: scale(1, 2);
+}
+
+.scale__block:nth-child(3):hover {
+	transform: scale(3, 0.5);
+}
+
+.scale__block:nth-child(4):hover {
+	transform: scale(1.45, 2.1);
+}
+
+.scale__block:nth-child(5):hover {
+	transform: scale(2.5);
+}
+
+.scale__block:nth-child(6):hover {
+	transform: scale(0, 999);
+}
+
+
+
+.rotate__block:nth-child(2):hover {
+	transform: rotate(5deg);
+}
+
+.rotate__block:nth-child(3):hover {
+	transform: rotate(10deg);
+}
+
+.rotate__block:nth-child(4):hover {
+	transform: rotate(45deg);
+}
+
+.rotate__block:nth-child(5):hover {
+	transform: rotate(-45deg);
+}
+
+.rotate__block:nth-child(6):hover {
+	transform: rotate(359deg);
+}
+
+
+
+.skew__block:nth-child(2):hover {
+	transform: skew(5deg, 40deg);
+}
+
+.skew__block:nth-child(3):hover {
+	transform: skewX(10deg);
+}
+
+.skew__block:nth-child(4):hover {
+	transform: skewY(10deg);
+}
+
+.skew__block:nth-child(5):hover {
+	transform: skew(50deg, 100deg);
+}
+
+.skew__block:nth-child(6):hover {
+	transform: skew(95deg, 0deg);
+}
+
+
+
+.matrix__block:nth-child(2):hover {
+	transform: matrix(1, 2, 2, 1, 1, 1);
+}
+
+.matrix__block:nth-child(3):hover {
+	transform: matrix(2, 1, 1, 0, 0, 0);
+}
+
+.matrix__block:nth-child(4):hover {
+	transform: matrix(2, 1, 1, 1, 0, 0);
+}
+
+.matrix__block:nth-child(5):hover {
+	transform: matrix(2, 1, 1, 1, 30, 60);
+}
+
+.matrix__block:nth-child(6):hover {
+	transform: matrix(5, 15, 25, 2, 0, 0);
+}
+
+
+.m2dt__block:nth-child(2):hover {
+	transform: rotate(45deg) translate(10px, 40px) skew(10deg, 10deg)
+}
+
+.m2dt__block:nth-child(3):hover {
+	transform: rotate(10deg) scale(1.045, 1.69) translateX(40px);
+}
+
+.m2dt__block:nth-child(4):hover {
+	transform: scale(2) translate(20px, 20px);
+}
+
+.m2dt__block:nth-child(5):hover {
+	transform: scale(2) matrix(2, 1, 1, 1, 30, 60);
+}
+
+.m2dt__block:nth-child(6):hover {
+	transform: scale(0.1) matrix(5, 15, 25, 2, 0, 0) rotate(45deg);
+}
+
+
+.transform-origin__block:nth-child(2):hover {
+	transform-origin: 0 0;
+	transform: rotate(45deg);
+}
+
+.transform-origin__block:nth-child(3):hover {
+	transform-origin: top left;
+	transform: scale(1.5);
+}
+
+.transform-origin__block:nth-child(4):hover {
+	transform-origin: 100% 100%;
+	transform: scale(1.5);
+}
+
+.transform-origin__block:nth-child(5):hover {
+	transform-origin: 50px 100px;
+	transform: rotate(45deg);
+}
+
+.transform-origin__block:nth-child(6):hover {
+	transform-origin: 70% bottom;
+	transform: rotate(45deg);
+}
+
+
+
+.perspective-1 {
+	perspective: 1000px;
+	perspective-origin: 0 0;
+}
+
+.perspective-1__block:nth-child(2):hover {
+	transform: rotateX(45deg);
+}
+
+
+.perspective-2 {
+	perspective: 100px;
+	perspective-origin: 0 0;
+}
+
+.perspective-2__block:nth-child(2):hover {
+	transform: rotateX(45deg);
+}
+
+
+.perspective-3 {
+	perspective: 100px;
+	perspective-origin: 100% 0;
+}
+
+.perspective-3__block:nth-child(2):hover {
+	transform: rotateX(45deg);
+}
+
+
+
+.translate3d__block:nth-child(2):hover {
+	transform: translate3d(10px, 10px, 10px);
+}
+
+.translate3d__block:nth-child(3):hover {
+	transform: translate3d(10px, 10px, 100000px);
+}
+
+.translate3d__block:nth-child(4):hover {
+	transform: translate3d(10px, 30px, 0);
+}
+
+.translate3d__block:nth-child(5):hover {
+	transform: translate3d(0, 0, 100px);
+}
+
+.translate3d__block:nth-child(6):hover {
+	transform: translate3d(0, 0, -1000px);
+}
+
+
+
+.scale3d__block:nth-child(2):hover {
+	transform: scale3d(2, 2, 2);
+}
+
+.scale3d__block:nth-child(3):hover {
+	transform: scale3d(1, 1, 2);
+}
+
+.scale3d__block:nth-child(4):hover {
+	transform: scale3d(1.5, 1.5, 1.5);
+}
+
+.scale3d__block:nth-child(5):hover {
+	transform: scale3d(0, 0, 0);
+}
+
+.scale3d__block:nth-child(6):hover {
+	transform: scale3d(1, 1, 1000);
+}
+
+
+
+
+
+.rotate3d__block:nth-child(2):hover {
+	transform: rotate3d(0, 0, 0, 45deg);
+}
+
+.rotate3d__block:nth-child(3):hover {
+	transform: rotate3d(1, 1, 1, 45deg);
+}
+
+.rotate3d__block:nth-child(4):hover {
+	transform: rotate3d(2, 2, 2, 45deg);
+}
+
+.rotate3d__block:nth-child(5):hover {
+	transform: rotate3d(2, 2, 2, 90deg);
+}
+
+.rotate3d__block:nth-child(6):hover {
+	transform: rotate3d(1, 1, 1, 180deg);
+}
+
+
+.matrix3d__block:nth-child(2):hover {
+	transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+}
+
+.matrix3d__block:nth-child(3):hover {
+	transform: matrix3d(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1);
+}
+
+.matrix3d__block:nth-child(4):hover {
+	transform: matrix3d(10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10);
+}
+
+.matrix3d__block:nth-child(5):hover {
+	transform: matrix3d(100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100);
+}
+
+.matrix3d__block:nth-child(6):hover {
+	transform: matrix3d(1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000);
+}
+
+
+
+.m3dt__block:nth-child(2):hover {
+	transform: rotate3d(0, 0, 0, 45deg) scale3d(2, 2, 2) translate3d(10px, 10px, 10px);
+}
+
+.m3dt__block:nth-child(3):hover {
+	transform: rotate3d(1, 1, 1, 45deg) scale3d(1, 1, 2) translate3d(10px, 10px, 100000px);
+}
+
+.m3dt__block:nth-child(4):hover {
+	transform: rotate3d(2, 2, 2, 45deg) scale3d(1.5, 1.5, 1.5) translate3d(10px, 30px, 0);
+}
+
+.m3dt__block:nth-child(5):hover {
+	transform: rotate3d(2, 2, 2, 90deg) scale3d(0, 0, 0) translate3d(0, 0, 100px);
+}
+
+.m3dt__block:nth-child(6):hover {
+	transform: rotate3d(1, 1, 1, 180deg) scale3d(1, 1, 1000) translate3d(0, 0, -1000px);
+}
+
+
+.transform-style__block {
+	position: relative;
+	background-color: #565656;
+}
+
+.transform-style__child {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+}
+
+
+.transform-style__child {
+	background-color: #9b3e3e;
+}
+
+
+.transform-style__block:nth-child(2) {
+	transform-style: flat;
+}
+
+.transform-style__block:nth-child(3) {
+	transform-style: preserve-3d;
+}
+
+.transform-style__block:nth-child(2):hover .transform-style__child {
+	transform: rotateX(50deg);
+}
+
+.transform-style__block:nth-child(3):hover .transform-style__child {
+	transform: rotateX(50deg);
+}
+
+
+
+
+
+.backface-visibility__block {
+	background-color: #565656;
+	transform-style: preserve-3d;
+}
+
+.backface-visibility__block>* {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+}
+
+.backface-visibility__first {
+	background-color: #9b3e3e;
+	transform: rotateX(0deg);
+	z-index: 10;
+}
+
+.backface-visibility__second {
+	background-color: blue;
+	transform: rotateX(-180deg);
+}
+
+.backface-visibility__block:hover {
+	transform: rotateX(180deg);
+}
+
+.backface-visibility__block:nth-child(2) .backface-visibility__first {
+	backface-visibility: visible;
+}
+
+.backface-visibility__block:nth-child(3) .backface-visibility__first {
+	backface-visibility: hidden;
+}
+
+
+
+
+
+
+/* ---------------------------------------- */
+
+.car {
+	margin-bottom: 900px;
+}
+
+
+.car__body {
+	width: 800px;
+	height: 130px;
+	background-color: #000680;
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	border-radius: 31% 69% 13% 87% / 86% 50% 50% 14%;
+}
+
+
+.car__wheel {
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	background-color: #3d3d3d;
+	border: 10px dashed black;
+}
+
+.car__wheel:hover {
+	transform: rotate(45deg);
+}
+
+.wheel-1 {
+	position: absolute;
+	top: 70px;
+	left: 90px;
+}
+
+.wheel-2 {
+	position: absolute;
+	top: 70px;
+	right: 130px;
+}
+
+.car__window {
+	background-color: #272727af;
+}
+
+
+.window-1{
+	width: 250px;
+	height: 100px;
+	position: absolute;
+	top: -70px;
+	left: 320px;
+	border-radius: 0% 100% 13% 87% / 100% 100% 0% 0%;
+	outline: 20px solid #000680;
+}
+
+.window-2{
+	width: 150px;
+	height: 100px;
+	position: absolute;
+	top: -70px;
+	left: 150px;
+	border-radius: 100% 0% 13% 87% / 100% 100% 0% 0%;
+	outline: 20px solid #000680;
+}
+
+.car__headlight {
+	background-color: #d0bc9a;
+	height: 20px;
+	width: 60px;
+	position: absolute;
+	top: 46px;
+	right: 7px;
+	border: 1px solid #00032fa5;
+	border-radius: 20% 80% 70% 30% / 40% 65% 35% 60%;
+	transform: rotate(10deg);
+}
+
+.car__headlight:hover {
+	background-color: #c48415;
+	border: 1px solid rgb(194, 149, 4);
+
+}
+
+.car__headlight-2 {
+	background-color: #d0bc9a;
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	top: 37px;
+	right: 70px;
+	border-radius: 50%;
+	border: 1px solid #00032fa5;
+}
+
+.car__headlight-2:hover {
+	background-color: #c48415;
+	border: 1px solid rgb(194, 149, 4);
+}
+
+.car__rear-headlight-1 {
+	background-color: #d09a9a;
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	top: 46px;
+	left: 28px;
+	border: 1px solid #00032fa5;
+	border-radius: 20% 80% 70% 30% / 40% 65% 35% 60%;
+	transform: scale(-1, 1);
+}
+
+.car__rear-headlight-1:hover {
+	background-color: #ca1717;
+}
+
+.car__rear-headlight-2 {
+	background-color: #d09a9a;
+	height: 10px;
+	width: 50px;
+	position: absolute;
+	top: 65px;
+	left: 20px;
+	border: 1px solid #00032fa5;
+	border-radius: 5px;
+	transform: rotate(5deg);
+}
+
+.car__rear-headlight-2:hover {
+	background-color: #ca1717;
+}
