@@ -1,0 +1,36 @@
+//REM
+@function rem($px) {
+	$result: math.div($px, 16) + rem;
+	@return $result;
+}
+//EM
+@function em($px, $current: 16) {
+	$result: math.div($px, $current) + em;
+	@return $result;
+}
+
+@mixin transition-default {
+	transition: 0.3s all;
+}
+
+@mixin font-poppins-light {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+}
+
+@mixin font-poppins-medium {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+
+@mixin font-poppins-bald {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+}
+
+@mixin container {
+	max-width: rem(1270);
+	margin: 0 auto;
+	padding-left: rem(15);
+	padding-right: rem(15);
+}
